@@ -1,7 +1,7 @@
 use near_sdk::borsh::{self, BorshDeserialize, BorshSerialize};
 use near_sdk::{log, near_bindgen};
 
-const DEFAULT_MESSAGE: &str = "Hello";
+const DEFAULT_MESSAGE: &str = "Hello Near!";
 
 // Define the contract structure
 #[near_bindgen]
